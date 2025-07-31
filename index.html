@@ -14,7 +14,7 @@
       const lot = document.getElementById('lot').value;
       if (!lot) return alert("Enter a lot number.");
 
-      const response = await fetch('https://script.google.com/macros/s/AKfycbwphfdNGfgrirMzV-wFW_rWECZJy_h4zHgY1VbBwwsquD3ok-clCtp8i-3W0v0ncO-WZA/exec', {
+      const response = await fetch('https://script.google.com/macros/s/AKfycbxUJtlqRUjJsVnb1uA48f_CjVE2BpqPo18mLhNkloCGLvrBmdv4gW1xIbri76IkqX6zqg/exec', {
         method: 'POST',
         body: JSON.stringify({ lot }),
         headers: { 'Content-Type': 'application/json' }
